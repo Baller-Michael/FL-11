@@ -1,0 +1,122 @@
+@mixin btn {
+  background-color: $btnColor;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+  &:hover {
+    background-color: lighten($btnColor, 15%);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $headerFont;
+  background-color: $bgColor;
+}
+.header {
+  display: flex;
+  background: $imgBackground;
+  height: 500px;
+  border-radius: 0 0 200px 0;
+  color: $headerColor;
+  .header-wrap {
+    margin: 20px 200px;
+    .landing-logo {
+      display: flex;
+      justify-content: flex-start;
+      p {
+        text-align: center;
+        padding: 0px 5px;
+        font-weight: bold;
+        font-size: 20px;
+        span {
+          display: block;
+          font-size: 10px;
+        }
+      }
+    }
+    .header_heading {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 50px 0px;
+      width: 400px;
+      font-family: $headerFont;
+    }
+    .header_text {
+      display: block;
+      width: 500px;
+    }
+    .header_button {
+      @include btn;
+      margin: 50px 0px 50px 0px;
+    }
+  }
+}
+
+main {
+  .section_text {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    font-weight: bold;
+    font-family: $headerFont;
+    color: $headerColor;
+  }
+  .section_card_wrap {
+    display: flex;
+    margin: 20px 200px;
+    justify-content: space-between;
+    .section_card {
+      background: $pageColor;
+      margin: 0 10px;
+      justify-content: center;
+      text-align: center;
+      border-radius: 5px;
+      display: block;
+      .section_card_img {
+      text-align: center;
+      border-radius: 5px;
+      margin: 20px 0px;
+    }
+    .section_card_heading {
+        font-size: 24px;
+        color: $sectioncardColor;
+    }
+    .section_card_text {
+        color: $textColor;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+    }
+    }
+  }
+
+  .section_banner {
+      margin: 0px 400px;
+      display: flex;
+      justify-content: space-between;
+      background: $bannerGradient;
+      padding:  50px 100px;
+      .section_banner_heading{
+          font-size: 24px;
+      }
+      .section_banner_button {
+          @include btn;
+      }
+  }
+  .footer {
+      background-color: $pageColor;
+      height: 400px;
+      .footer-wrap {
+          display: flex;
+      }
+  }
+  
+}
+
+

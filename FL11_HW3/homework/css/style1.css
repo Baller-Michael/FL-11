@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #ffffff; }
+
+.header {
+  display: flex;
+  background: url(../img/m-h-day.jpg) no-repeat top/cover;
+  height: 500px;
+  border-radius: 0 0 200px 0;
+  color: #2c2f3c; }
+  .header .header-wrap {
+    margin: 20px 200px; }
+    .header .header-wrap .landing-logo {
+      display: flex;
+      justify-content: flex-start; }
+      .header .header-wrap .landing-logo p {
+        text-align: center;
+        padding: 0px 5px;
+        font-weight: bold;
+        font-size: 20px; }
+        .header .header-wrap .landing-logo p span {
+          display: block;
+          font-size: 10px; }
+    .header .header-wrap .header_heading {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 50px 0px;
+      width: 400px;
+      font-family: "Source Sans Pro", sans-serif; }
+    .header .header-wrap .header_text {
+      display: block;
+      width: 500px; }
+    .header .header-wrap .header_button {
+      background-color: #699900;
+      border: none;
+      padding: 10px 30px;
+      cursor: pointer;
+      color: #fff;
+      margin: 50px 0px 50px 0px; }
+      .header .header-wrap .header_button:hover {
+        background-color: #9ee600; }
+
+main .section_text {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #2c2f3c; }
+main .section_card_wrap {
+  display: flex;
+  margin: 20px 200px;
+  justify-content: space-between; }
+  main .section_card_wrap .section_card {
+    background: #21232e;
+    margin: 0 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    display: block; }
+    main .section_card_wrap .section_card .section_card_img {
+      text-align: center;
+      border-radius: 5px;
+      margin: 20px 0px; }
+    main .section_card_wrap .section_card .section_card_heading {
+      font-size: 24px;
+      color: #ffffff; }
+    main .section_card_wrap .section_card .section_card_text {
+      color: #c0beaa;
+      font-size: 16px;
+      text-align: center;
+      padding: 10px; }
+main .section_banner {
+  margin: 0px 400px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(45deg, #629219, #2c5ada);
+  padding: 50px 100px; }
+  main .section_banner .section_banner_heading {
+    font-size: 24px; }
+  main .section_banner .section_banner_button {
+    background-color: #699900;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff; }
+    main .section_banner .section_banner_button:hover {
+      background-color: #9ee600; }
+main .footer {
+  background-color: #21232e;
+  height: 400px; }
+  main .footer .footer-wrap {
+    display: flex; }

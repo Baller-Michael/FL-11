@@ -1,0 +1,70 @@
+/*
+Error: Undefined variable: "$fonts".
+        on line 7 of D:/FL-11/FL11_HW3/homework/scss/_main.scss
+        from line 3 of D:\FL-11\FL11_HW3\homework\scss\style2.scss
+
+2: @import "variables2";
+3: @import "main";
+
+Backtrace:
+D:/FL-11/FL11_HW3/homework/scss/_main.scss:7
+D:\FL-11\FL11_HW3\homework\scss\style2.scss:3
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/koala/bin/sass:22:in `load'
+D:/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$fonts\".\A         on line 7 of D:/FL-11/FL11_HW3/homework/scss/_main.scss\A         from line 3 of D:\FL-11\FL11_HW3\homework\scss\style2.scss\A \A 2: @import \"variables2\";\A 3: @import \"main\";"; }
