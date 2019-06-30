@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background: url(../img/sample2.jpg) no-repeat top/cover;
+  height: 100vh;
+}
+
+#registration {
+  margin-top: 30px;
+}
+
+#logo {
+  padding-top: 310px;
+  text-align: center;
+  color: #fff;
+}
+
+#logo h1 {
+  font-size: 38px;
+  letter-spacing: 0.2em;
+}
+
+#logo h1 span {
+  font-size: 70px;
+}
+
+#logo p {
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 300px;
+}
+
+.menu a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 50px;
+}
+
+#triangle {
+  position: relative;
+  background-color: #f3f3f3;
+  z-index: 1;
+}
+
+#triangle .info-text {
+  height: 200px;
+  display: flex;
+}
+
+#triangle .info-text .black-side {
+  width: 50%;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 50px;
+}
+
+#triangle .info-text .white-side {
+  display: flex;
+  align-items: flex-end;
+  font-size: 14px;
+  width: 50%;
+  padding: 80px 50px;
+}
+
+#triangle:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 100vw solid transparent;
+  border-top: 200px solid #000;
+  z-index: -1;
+}
+
+main {
+  background-color: #f3f3f3;
+}
+main h2 {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+main .first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .first-section .photo {
+  display: flex;
+  align-items: flex-end;
+  background: url(../img/sample-1.jpg) no-repeat top/cover;
+  padding: 20px;
+  height: 290px;
+  position: relative;
+  width: 50%;
+  margin-left: 50px;
+}
+
+main .first-section .photo p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+main .first-section .photo .like-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .first-section .description {
+  text-align: center;
+  font-size: 14px;
+  margin: 50px;
+  width: 45%;
+}
+
+main .first-section .description p {
+  margin-bottom: 5%;
+}
+
+main .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section .photo {
+  display: flex;
+  align-items: flex-end;
+  background: url(../img/sample-2.jpg) no-repeat top/cover;
+  padding: 20px;
+  height: 290px;
+  position: relative;
+  width: 50%;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+main .section .photo p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+main .section .like-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .section .description {
+  text-align: center;
+  width: 50%;
+  padding: 20px 0 0 90px;
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+main .section .description p {
+  margin-bottom: 5%;
+}
+
+main .second-section {
+  padding: 30px 0px 70px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+main .second-section .item {
+  width: 320px;
+  padding: 20px;
+  box-shadow: 0px 3px 9px -2px;
+  font-size: 14px;
+}
+
+main .second-section .item .item-btn {
+  width: 100%;
+  color: #fff;
+  background: #097774;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 1s ease-out;
+}
+
+.albom {
+  display: flex;
+  justify-content: space-around;
+}
+.trip p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+  margin: 5%;
+}
+
+.trip {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 350px;
+  width: 250px;
+  background-size: cover;
+}
+
+.trip1 {
+  background-image: url(../img/news-list-1.jpg);
+}
+
+.trip2 {
+  background-image: url(../img/news-list-2.jpg);
+}
+
+.trip3 {
+  background-image: url(../img/news-list-3.jpg);
+}
+
+.trip4 {
+  background-image: url(../img/news-list-4.jpg);
+}
+
+.choose-trip {
+  position: absolute;
+  color: #fff;
+  margin: auto;
+  background-color: rgba(64, 155, 167, 0.8);
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+  border-color: rgba(64, 155, 167, 0.8);
+  top: 45%;
+  right: 20px;
+  cursor: pointer;
+}
+.choose-trip:hover {
+  background-color: rgba(64, 155, 167);
+}
+
+.albom .trip .like-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-load {
+  color: #fff;
+  background: #097774;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  justify-content: center;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.btn-load:hover {
+  background: #45cec9;
+}
+
+main .second-section .item .item-btn:hover {
+  background-color: #11b1ac;
+}
+
+main .third-section .subscribe {
+  padding: 45px 15px;
+}
+
+main .third-section .subscribe-text {
+  font-size: 14px;
+}
+
+main .third-section .subscribe-form {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 25px;
+}
+
+main .third-section .subscribe-form label {
+  font-size: 20px;
+}
+
+main .third-section .subscribe-form input {
+  margin: 0px 15px;
+}
+
+input {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #000;
+  background: #f3f3f3;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.btn-subscribe {
+  color: #fff;
+  background: #097774;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  background: #fff;
+  border-top: 2px solid #f0f0f0;
+}
+
+footer .footer-nav p {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+footer .footer-nav a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 12px;
+}
