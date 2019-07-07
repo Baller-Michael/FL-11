@@ -1,0 +1,10 @@
+let a1 = +prompt('Enter X point of start');
+let a2 = +prompt('Enter Y point of start');
+let b1 = +prompt('Enter X point of finish');
+let b2 = +prompt('Enter Y point of finish');
+let c1 = +prompt('Enter X point of your point');
+let c2 = +prompt('Enter Y point of your point');
+const numberOfDots = 2;
+let centerX = (a1 + b1) / numberOfDots;
+let centerY = (a2 + b2) / numberOfDots;
+console.log(c1 === centerX && c2 === centerY);
