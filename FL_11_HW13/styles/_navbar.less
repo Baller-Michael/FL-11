@@ -1,0 +1,27 @@
+#navbarContent {
+    .navbar-nav {
+        .nav-link {
+            font-weight: 500;
+            margin-top : 3px;
+            text-align : center;
+            color      : @grey  !important;
+
+            &:hover {
+                background: @blue;
+                color     : #fff !important;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .navbar-nav {
+            padding: 0;
+
+            .nav-link {
+                padding     : 20px;
+                margin-top  : 0;
+                margin-right: 5px;
+            }
+        }
+    }
+}
