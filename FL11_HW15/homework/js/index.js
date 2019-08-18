@@ -74,13 +74,3 @@ function Hamburger(type, calories, secretIngredient) {
         return burgerInfo;
     }
 }
-
-let myHamburger = new Hamburger('classic', 600);
-
-myHamburger.addSecretIngredient();
-myHamburger.addTomato();
-myHamburger.addCheese();
-myHamburger.bite();
-myHamburger.bite();
-myHamburger.bite();
-console.log(myHamburger.info());
