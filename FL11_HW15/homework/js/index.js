@@ -16,7 +16,7 @@ function Hamburger(type, calories, secretIngredient) {
     };
 
     this.setCalories = function (calories) {
-        return this.calories = calories;
+        this.calories = calories;
     }
     this.addCheese = function () {
         if (amountOfCheese) {
@@ -62,16 +62,16 @@ function Hamburger(type, calories, secretIngredient) {
         }
     }
     this.info = function () {
-        let str = this.type + ' hamburger: ';
+        let burgerInfo = this.type + ' hamburger: ';
 
-        str += this.secretIngredient == true ? 'with secret ingredient, ' : '';
-        str += amountOfCheese > 0 ? 'with cheese, ' : '';
-        str += amountOfTomato > 0 ? `with ${amountOfTomato} tomato, ` : '';
-        str += amountOfBite > 0 ? `is bit ${amountOfBite} times. ` : '';
+        burgerInfo += this.secretIngredient == true ? 'with secret ingredient, ' : '';
+        burgerInfo += amountOfCheese > 0 ? 'with cheese, ' : '';
+        burgerInfo += amountOfTomato > 0 ? `with ${amountOfTomato} tomato, ` : '';
+        burgerInfo += amountOfBite > 0 ? `is bit ${amountOfBite} times. ` : '';
 
-        str += `Total calories: ${this.calories}.`;
+        burgerInfo += `Total calories: ${this.calories}.`;
 
-        return str;
+        return burgerInfo;
     }
 }
 
